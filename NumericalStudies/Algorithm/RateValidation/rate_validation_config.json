@@ -1,0 +1,16 @@
+{
+    "sample_sizes": [200, 400, 800, 1600, 3200, 6400],
+    "replications": 100,
+    "dimension": 1,
+    "beta": 2.5,
+    "polynomial_degree": 2,
+    "tau": 0.75,
+    "query_point": 0.5,
+    "query_points": [0.25, 0.5, 0.75],
+    "dgp": "knot_sum",
+    "holder_knots": [0.25, 0.5, 0.75],
+    "holder_coefficient": 2.0,
+    "bandwidth_constant": 0.8,
+    "seed": 2026,
+    "kernel": "epanechnikov"
+}

@@ -1,0 +1,58 @@
+{
+    "experiment": "contextwise_kpqr_excess_risk_rate",
+    "sample_sizes": [
+        200,
+        400,
+        800,
+        1600,
+        3200,
+        6400
+    ],
+    "replications": 100,
+    "dimension": 1,
+    "beta": 2.5,
+    "polynomial_degree": 2,
+    "tau": 0.75,
+    "query_points": [
+        0.25,
+        0.5,
+        0.75
+    ],
+    "dgp": "knot_sum",
+    "holder_knots": [
+        0.25,
+        0.5,
+        0.75
+    ],
+    "holder_coefficient": 2.0,
+    "bandwidth_constant": 0.8,
+    "bandwidth_rule": "c * n^(-1/(2*beta+d))",
+    "kernel": "epanechnikov",
+    "seed": 2026,
+    "slope_fit": [
+        {
+            "query_point": 0.25,
+            "estimated_slope": -0.8500678444404227,
+            "intercept": -1.7646287244492231,
+            "r_squared": 0.9818220116380448,
+            "theoretical_slope": -0.8333333333333334,
+            "slope_difference": -0.016734511107089345
+        },
+        {
+            "query_point": 0.5,
+            "estimated_slope": -0.8086136983702572,
+            "intercept": -2.0427804190931673,
+            "r_squared": 0.981999793376584,
+            "theoretical_slope": -0.8333333333333334,
+            "slope_difference": 0.024719634963076165
+        },
+        {
+            "query_point": 0.75,
+            "estimated_slope": -0.8168742431842082,
+            "intercept": -1.9945869389735995,
+            "r_squared": 0.9948957237929413,
+            "theoretical_slope": -0.8333333333333334,
+            "slope_difference": 0.016459090149125166
+        }
+    ]
+}

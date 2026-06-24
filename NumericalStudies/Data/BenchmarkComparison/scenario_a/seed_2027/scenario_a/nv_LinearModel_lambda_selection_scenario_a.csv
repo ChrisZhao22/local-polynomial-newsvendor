@@ -1,0 +1,2 @@
+penalty,lambda_value,validation_mean_cost,is_best
+none,0.0,0.1746936288002174,True

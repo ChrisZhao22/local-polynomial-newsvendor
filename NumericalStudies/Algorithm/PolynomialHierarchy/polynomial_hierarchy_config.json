@@ -1,0 +1,14 @@
+{
+    "training_size": 1200,
+    "validation_size": 100,
+    "test_grid_size": 81,
+    "replications": 20,
+    "degrees": [0, 1, 2],
+    "bandwidths": [0.25],
+    "beta": 2.5,
+    "fractional_coefficient": 2.0,
+    "fractional_knot": 0.5,
+    "tau": 0.75,
+    "seed": 2026,
+    "kernel": "epanechnikov"
+}

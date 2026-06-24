@@ -1,0 +1,10 @@
+{
+    "total_len": 5000,
+    "lntr": 3000,
+    "lnva": 1000,
+    "lnte": 1000,
+    "scenario": "a",
+    "noise_scale": 0.25,
+    "seed": 2026,
+    "tau": 0.75
+}
